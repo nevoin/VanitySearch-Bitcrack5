@@ -39,19 +39,11 @@ Donations are always welcome! :) bc1qag46ashuyatndd05s0aqeq9d6495c29fjezj09
 Examples
 Windows:
 
-text
 ./VanitySearch.exe -gpuId 0 -i input.txt -o output.txt -start 3BA89530000000000 -range 40
-text
 ./VanitySearch.exe -gpuId 1 -o output.txt -start 3BA89530000000000 -range 42 1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ
-text
 ./VanitySearch.exe -gpuId 0 -start 3BA89530000000000 -range 41 1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ
-text
 ./VanitySearch.exe -gpuId 0 -start 100000000000000000 -range 68 -random 19vkiEajfhuZ8bs8Zu2jgmC6oqZbWqhxhG
-text
 ./VanitySearch.exe -gpuId 0 -start 3BA89530000000000 -range 41 -backup 1MVDYgVaSN6iKKEsbzRUAYFrYJadLYZvvZ
-Linux:
 
-text
-./vanitysearch -gpuId 0 -i input.txt -o output.txt -start 3BA89530000000000 -range 40
 License
 VanitySearch is licensed under GPLv3.
