@@ -1,4 +1,4 @@
-<ul><li>VanitySearch-Bitcrack with Optimization for BTC Puzzle</li>
+<ul><li>VanitySearch-Bitcrack fork with Optimization for BTC Puzzle</li>
 <li>Ported to CUDA 13.2 and built for the Blackwell (sm_120) architecture.</li>
 <li>Binaries are built from the source archive attached to the release (`VanitySearch-Bitcrack-master132.zip`).</li>
 <li>Visual Studio 2022, CUDA Toolkit 13.2</li>
