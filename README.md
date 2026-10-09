@@ -1,6 +1,7 @@
-VanitySearch-Bitcrack with Optimization for BTC Puzzle
-Ported to CUDA 13.2 and built for the Blackwell (sm_120) architecture.
-Speed improved by 3–4%
+<ul><li>VanitySearch-Bitcrack with Optimization for BTC Puzzle</li>
+<li>Ported to CUDA 13.2 and built for the Blackwell (sm_120) architecture.</li>
+<li>Speed improved by 3–4%</li>
+<li>Minor code cleanup: removed unused code.</li></ul>
 
 Features
 <ul> <li>Optimized CUDA modular math for better performance (6900 MKeys/s on 4090, 8800 MKeys/s on 5090).</li> <li>Less RAM usage.</li> <li>Starting key setting function optimized with ECC addition and batch modular inverse.</li> <li>Easier definition of the range to scan by defining it as a power of 2.</li> <li>Only 1 GPU allowed for better efficiency.</li> <li>Only compressed addresses and prefixes.</li> <li>Pressing <b>p</b> pauses VanitySearch freeing the GPU, press <b>p</b> again to resume.</li> <li>Added prefix search. Be careful with the <code>-m</code> parameter.</li> <li><b>Random mode</b>: each GPU thread scans 1024 consecutive random keys at each step.</li> <li><b>Backup mode</b>: approximately every 60 seconds an automatic backup file is created for each GPU, containing the progress of the last sequential search. Using <code>-backup</code>, you can resume the sequential search from the last session. Useful if the program closes for any reason.</li> </ul>
