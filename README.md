@@ -1,6 +1,6 @@
 <ul><li>VanitySearch-Bitcrack with Optimization for BTC Puzzle</li>
 <li>Ported to CUDA 13.2 and built for the Blackwell (sm_120) architecture.</li>
-<li>Speed improved by 3–4%</li>
+<li>Speed improved by ~7% (tested on RTX 5060 Ti and RTX 5070)</li>
 <li>Minor code cleanup: removed unused code.</li></ul>
 
 Features
