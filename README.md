@@ -34,8 +34,6 @@ Be careful: if you are looking for multiple prefixes, it may be necessary to inc
 
 In Random mode each thread selects a random number within its subrange and scans 512 keys forward and 512 keys backward. Random mode has no memory; the higher the percentage of the range that is scanned, the greater the probability that already scanned keys will be scanned again.
 
-Donations are always welcome! :) bc1qag46ashuyatndd05s0aqeq9d6495c29fjezj09
-
 ## Examples
 
 **Windows:**
