@@ -1,7 +1,7 @@
 <ul><li>VanitySearch-Bitcrack with Optimization for BTC Puzzle</li>
 <li>Ported to CUDA 13.2 and built for the Blackwell (sm_120) architecture.</li>
 <li>Binaries are built from the source archive attached to the release (`VanitySearch-Bitcrack-master132.zip`).</li>
-<li>Visual Studio 2022, CUDA 13.2</li>
+<li>Visual Studio 2022, CUDA Toolkit 13.2</li>
 <li>Speed improved by ~7% (tested on RTX 5060 Ti and RTX 5070)</li>
 <li>Minor code cleanup: removed unused code.</li></ul>
 
